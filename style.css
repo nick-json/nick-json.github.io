@@ -37,28 +37,6 @@ div.bg-image {
 }
 
 @keyframes bgAnimation {
-    /*from {
-        transform: rotate(0deg);
-        scale: 1;
-    }
-
-    25% {
-        scale: 1.2;
-    }
-
-    50% {
-        scale: 1;
-    }
-
-    75% {
-        scale: 1.2;
-    }
-
-    to {
-        transform: rotate(360deg);
-        scale: 1;
-    }*/
-
     from { transform: rotate(0deg) }
     to { transform: rotate(360deg) }
 }
