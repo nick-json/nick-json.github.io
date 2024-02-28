@@ -33,10 +33,11 @@ div.bg-image {
     z-index: -1;
     opacity: 0.6;
     animation: bgAnimation 20s linear infinite;
+    transition: 0.5s ease-in-out;
 }
 
 @keyframes bgAnimation {
-    from {
+    /*from {
         transform: rotate(0deg);
         scale: 1;
     }
@@ -56,7 +57,10 @@ div.bg-image {
     to {
         transform: rotate(360deg);
         scale: 1;
-    }
+    }*/
+
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
 }
 
 nav {
@@ -96,6 +100,10 @@ nav a {
 
 .intro:hover {
     background-color: rgba(255, 255, 255, 0);
+}
+
+.intro:hover + div.bg-image {
+    scale: 1.5;
 }
 
 .intro img {
@@ -209,7 +217,7 @@ nav a {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .intro {
         margin-top: 100px;
         margin-left: 50%;
