@@ -157,7 +157,7 @@ nav a {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
 }
 
 .services .container div h1 {
@@ -169,17 +169,6 @@ nav a {
 .services .container div h2 {
     color: #c6cfdc;
     font-size: 1em;
-}
-
-.services .container div ul {
-    color: #c6cfdc;
-    font-size: 1.25em;
-    list-style-type: none;
-}
-
-.services .container div ul li i{
-    color: #c6cfdc;
-    margin-right: 10px;
 }
 
 .services .container div button {
